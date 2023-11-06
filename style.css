@@ -102,3 +102,39 @@ input{
     display: none;
 }
 
+
+
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 768px) {
+    .inner-div {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .inner-div h2 {
+        font-size: 2.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .inner-div li {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    #submit, .btn {
+        font-size: 2rem;
+    }
+
+    #showScore h3 {
+        font-size: 2.5rem;
+    }
+
+    #showScore .btn {
+        font-size: 2.5rem;
+    }
+}
+
+
+
